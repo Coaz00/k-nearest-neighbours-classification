@@ -1,1 +1,2 @@
 # k-nearest-neighbours-classification
+The goal of this project is predicting type of cake based on given features using KNN (K nearest neighbours) classificator. Relevant features are chosen manually by looking at separability of classes on 2D graphic of various given features. Min/max normalization is performed and data set is split into train, test and validation subsets. Validation dataset is used in order to find "optimal" k (number of neighbours). KNN classificator was implemented manually and compared to built-in version from sklearn library.
